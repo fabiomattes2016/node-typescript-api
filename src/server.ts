@@ -9,7 +9,7 @@ export class SetuServer extends Server {
     super();
   }
 
-  public init():void {
+  public init(): void {
     this.setupExpress();
     this.setupControllers();
   }
